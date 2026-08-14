@@ -7,7 +7,6 @@ from strategy import StructureAnalyzer, LiquidityAnalyzer, OrderBlockAnalyzer, F
 def run_bot():
     print("🚀 Starting AbuBakar FX Trading Bot...")
     
-    # Dummy Data for Testing Execution
     data = {
         'open': [1900, 1902, 1901, 1905, 1904],
         'high': [1903, 1906, 1904, 1908, 1907],
@@ -29,4 +28,3 @@ def run_bot():
 
 if __name__ == "__main__":
     run_bot()
- 
